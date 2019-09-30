@@ -18,10 +18,10 @@ To install, run the following from your terminal: (you may want to backup your
 existing `~/.tmux.conf` first)
 
 ```
-$ cd
-$ git clone https://github.com/fenggeorgeyu/.tmux.git
-$ ln -s -f .tmux/.tmux.conf
-$ ln -s -f .tmux/.tmux.conf.local .
+cd
+git clone https://github.com/fenggeorgeyu/.tmux.git
+ln -s -f .tmux/.tmux.conf
+ln -s -f .tmux/.tmux.conf.local .
 ```
 
 Then proceed to [customize] your `~/.tmux.conf.local` copy.
