@@ -196,11 +196,12 @@ tmux_conf_theme_status_left_attr='bold,none,none'
 
 # status right style
 # # --- green style ---
-tmux_conf_theme_status_right_fg='#ffffff,#ffffff,#000000' # light gray, white, black
-tmux_conf_theme_status_right_bg='#888888,#008800,#00e400' 
+# tmux_conf_theme_status_right_fg='#ffffff,#ffffff,#000000' # light gray, white, black
+# tmux_conf_theme_status_right_bg='#888888,#008800,#00e400' 
 # # --- blue style ---
-tmux_conf_theme_status_right_fg='#ffffff,#ffffff,#000000' # light gray, white, black
-tmux_conf_theme_status_right_bg='#888888,#0262cf,#2b8eff' 
+tmux_conf_theme_status_right_fg='#000000,#000000,#000000' # light gray, white, black
+# tmux_conf_theme_status_right_fg='#ffffff,#ffffff,#ffffff' # light gray, white, black
+tmux_conf_theme_status_right_bg='#888888,#2b8eff,#00afff' 
 # tmux_conf_theme_status_right_fg='#ffffff,#e4e4e4,#000000' # light gray, white, black
 # tmux_conf_theme_status_right_fg='#000000,#000000,#000000' # light gray, white, black
 # tmux_conf_theme_status_right_bg='#888888,#d70000,#e4e4e4' # dark gray, red, white
