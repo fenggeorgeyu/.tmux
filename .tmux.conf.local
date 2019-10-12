@@ -189,17 +189,20 @@ tmux_conf_theme_status_right='#{prefix}#{pairing}#{synchronized} %R %b %d | #{us
 
 # status left style
 tmux_conf_theme_status_left_fg='#000000,#e4e4e4,#e4e4e4'  # black, white , white
-#tmux_conf_theme_status_left_bg='#ffff00,#ff00af,#00afff'  # yellow, pink, white blue
-tmux_conf_theme_status_left_bg='#ffff00,#ff0000,#00afff'  # yellow, red, white blue
+# tmux_conf_theme_status_left_bg='#ffff00,#ff00af,#00afff'  # yellow, pink, white blue
+# tmux_conf_theme_status_left_bg='#ffff00,#ff0000,#00afff'  # yellow, red, white blue
+tmux_conf_theme_status_left_bg='#ffff00,#ff0000,#00afff'  # white, red, white blue
 tmux_conf_theme_status_left_attr='bold,none,none'
 
 # status right style
-#tmux_conf_theme_status_right_fg='#ffffff,#e4e4e4,#000000' # light gray, white, black
-tmux_conf_theme_status_right_fg='#000000,#000000,#000000' # light gray, white, black
-#tmux_conf_theme_status_right_bg='#080808,#d70000,#e4e4e4' # dark gray, red, white
-tmux_conf_theme_status_right_bg='#ad6802,#d70000,#00e400' # middle brown, red, green
+tmux_conf_theme_status_right_fg='#ffffff,#ffffff,#000000' # light gray, white, black
+# tmux_conf_theme_status_right_fg='#ffffff,#e4e4e4,#000000' # light gray, white, black
+# tmux_conf_theme_status_right_fg='#000000,#000000,#000000' # light gray, white, black
+tmux_conf_theme_status_right_bg='#888888,#008800,#00e400' 
+# tmux_conf_theme_status_right_bg='#888888,#d70000,#e4e4e4' # dark gray, red, white
+# tmux_conf_theme_status_right_bg='#ad6802,#d70000,#00e400' # middle brown, red, green
 #tmux_conf_theme_status_right_attr='none,none,bold'
-tmux_conf_theme_status_right_attr='none,none,none'
+tmux_conf_theme_status_right_attr='none,none,bold'
 
 # pairing indicator
 tmux_conf_theme_pairing='👓 '          # U+1F453
