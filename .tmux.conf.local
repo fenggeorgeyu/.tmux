@@ -312,3 +312,6 @@ tmux_conf_copy_to_os_clipboard=true
 #
 
 
+# test tmux version and enable mouse mode
+# https://stackoverflow.com/a/42332679
+if-shell -b "[[ $(tmux -V | cut -d' ' -f2) < 2.1 ]]" "set-option -g mode-mouse on; set -g mouse-resize-pane on; set -g mouse-select-pane on; set -g mouse-select-window on; unbind c; bind c new-window -c \"$PWD\"; unbind '_'; bind '_' split-window -c \"$PWD\"; unbind '-'; bind '-' split-window -h -c \"$PWD\"" "set -g mouse on; set -s focus-events on"
